@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate content imitating the DC's Joker character, content related to the character, the jokercrypto token $JKR, or some rant or some advice as a tweet, it should not be vague, it should be unique and it should '@cobratate'; under 280 characters and should be plain text, you can use emojis, joker gifs and joker related images previously posted on the @jokercrypto88 twitter account";
+
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
